@@ -25,9 +25,6 @@
     "test": "NODE_ENV=test istanbul cover _mocha -- test --require test/setup.js --recursive --timeout 30000",
     "test:raw": "NODE_ENV=test mocha test --require test/setup.js --recursive --timeout 30000"
   },
-  "optionalDependencies": {
-    "fsevents": "^1.1.2"
-  },
   "dependencies": {
     "hapi": "^16.5.2"
   }
